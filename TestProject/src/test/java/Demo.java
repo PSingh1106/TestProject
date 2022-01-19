@@ -48,6 +48,7 @@ public class Demo {
 	//	driver.findElement(By.xpath("//*[@id=\"searchbox\"]/button")).click();
 	//	driver.navigate().back();
 		driver.findElement(By.xpath("//span[text()='My wishlists']")).click();
+		System.out.println();
 		
 	}
 
