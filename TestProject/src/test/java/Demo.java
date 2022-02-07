@@ -27,7 +27,7 @@ public class Demo {
 
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,1000)");
-		//Test..
+		//Test..123
 		List<WebElement> dresses= driver.findElements(By.xpath("//img[@title='Printed Summer Dress']"));
 		System.out.println(dresses.size());
 	/*	for(int i=0;i<=dresses.size()-1;i++) {
